@@ -1,10 +1,19 @@
-.App {
+.element {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Hello {
+  margin: 0 auto;
+  color: blue;
+  width: 600px;
+  text-align: center;
+}
+
+body {
+  width: 1388px;
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
